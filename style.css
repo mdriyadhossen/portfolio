@@ -1,0 +1,1368 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* defult css */
+*{
+    margin:0;
+    padding:0;
+}
+.fixdwidth{
+    width: 1170px;
+    margin:auto;
+    padding:0px 10px;
+}
+.clearfixd::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+section{
+    padding:80px 0px;
+}
+img{
+    max-width: 100%;
+}
+
+/* header */
+.heading{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px -5px #00000069;
+    border-bottom: 1px solid #0000001a;
+    position:sticky;
+}
+
+.header-left{
+    width:30%;
+    float:left;
+}
+.header-left a img{
+    width: 250px !important;
+    height: auto;
+    padding: 11px;
+    margin-bottom: -5px;
+}
+.header-right{
+    width:70%;
+    float:right;
+    
+}
+
+.header-Main-Menu{
+    list-style: none;
+    float:right;
+    text-align: center;
+}
+.header-Main-Menu li{
+    float: left;
+    
+}
+.header-Main-Menu li a{
+    text-decoration: none;
+    display:block;
+    font-size: 15px;
+    font-family: Roboto;
+    line-height: 67px;
+    padding:0px 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    color: rgb(7 7 7 / 68%);
+    position:relative;
+}
+
+
+/* header menu bar er after */
+
+ul.header-Main-Menu li a .underline:after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(45deg, #00acff, #00ffe7d1);
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+ul.header-Main-Menu li a .underline2:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #00acff, #00ffe7d1);
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    transition:.2s;
+}
+ul.header-Main-Menu li a:hover .underline2:after{
+    width:82px;
+}
+
+
+ul.header-Main-Menu li a .underline3:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #00acff, #00ffe7d1);
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    transition:.2s;
+}
+ul.header-Main-Menu li a:hover .underline3:after{
+    width:87px;
+}
+
+ul.header-Main-Menu li a .underline4:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #00acff, #00ffe7d1);
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    transition:.2s;
+}
+ul.header-Main-Menu li a:hover .underline4:after{
+    width: 30px;
+}
+
+ul.header-Main-Menu li a .underline5:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #00acff, #00ffe7d1);
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+    transition:.2s;
+}
+ul.header-Main-Menu li a:hover .underline5:after{
+    width: 80px;
+}
+
+
+/* benner Section */
+
+.benner-Section{
+    background:url(images/Bebber1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0 !important;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.left-Benner-Content {
+    width: 60%;
+    float: left;
+}
+
+.right-Image-Content-Div {
+    width: 40%;
+    float: left;
+}
+
+.image-Div {
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-Div img {
+    width: 100%;
+    height: auto;
+}
+
+.left-Benner-Content h2 {
+    margin-top: 130px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: #00acff;
+    margin-bottom: 10px;
+}
+
+.left-Benner-Content p {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    font-family: Roboto;
+    margin-bottom: 80px;
+}
+
+
+
+.exprience-Menu{
+    list-style:none;
+}
+
+ul.exprience-Menu li:first-child {
+    float: left;
+    width: 135px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00acff;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+ul.exprience-Menu li:first-child:before {
+    content: "6";
+    color: #00acff;
+    display: block;
+    float: left;
+    left: 0;
+    padding-right:10px;
+    line-height: 45px;
+    top: 0;
+    font-size: 50px;
+}
+
+
+ul.exprience-Menu li:nth-child(2) {
+    float: left;
+    width: 265px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00acff;
+    margin-right: 20px;
+}
+ul.exprience-Menu li:nth-child(2):before {
+    content: "12+";
+    color: #00acff;
+    display: block;
+    float: left;
+    left: 0;
+    padding-right:10px;
+    line-height: 45px;
+    top: 0;
+    font-size: 50px;
+}
+
+ul.exprience-Menu li:last-child {
+    float: left;
+    width: 228px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00acff;
+}
+
+ul.exprience-Menu li:last-child:before {
+    content: "800+";
+    color: #00acff;
+    display: block;
+    float: left;
+    left: 0;
+    padding-right:10px;
+    line-height: 45px;
+    top: 0;
+    font-size: 50px;
+}
+
+
+/* Hello content Css left side*/
+
+.left-Content-Div{
+    width:50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.content-Wrapper {
+    overflow: hidden;
+}
+
+.left-Content-Div h2 {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.left-Content-Div h4 {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #b8b7b7;
+    margin-bottom: 15px;
+}
+
+.left-Content-Div p {
+    color: #b8b7b7;
+    font-family: Roboto;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+
+/* working Website */
+.working-Div {
+    width: 100%;
+    overflow: hidden;
+}
+
+.working-Div h5 {
+    font-family: Roboto;
+    font-size: 18px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.working-Image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.working-Image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* Hello content Css right side*/
+.right-Content-Div{
+    width: 46%;
+    float: right;
+}
+
+.right-Content-Div1 {
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.right-Content-Div2 {
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.right-Content-Div3 {
+    width: 50%;
+    float: left;
+}
+
+.right-Content-Div4 {
+    width: 50%;
+    float: left;
+}
+
+/* div1 er selictor & before css */
+.right-Content-Div1 h3{
+    font-size: 20px;
+    color:#464646;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    line-height: 45px;
+}
+.right-Content-Div1 p{
+    color: #b1b1b1;
+    font-size: 15px;
+    font-family: Roboto;
+    text-align:;
+    padding-right: 14px;
+}
+.right-Content-Div1 h3::before {
+    content:"01.";
+    color:rgb(224, 224, 224);
+    display: block;
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+
+
+/* div2 er selictor & before css */
+.right-Content-Div2 h3{
+    font-size: 20px;
+    color:#464646;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    line-height: 45px;
+}
+.right-Content-Div2 p{
+    color: #b1b1b1;
+    font-size: 15px;
+    font-family: Roboto;
+    text-align:;
+    padding-right: 14px;
+}
+.right-Content-Div2 h3::before {
+    content:"02.";
+    color:rgb(224, 224, 224);
+    display: block;
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+/* div3 er selictor & before css */
+.right-Content-Div3 h3{
+    font-size: 20px;
+    color:#464646;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    line-height: 45px;
+}
+.right-Content-Div3 p{
+    color: #b1b1b1;
+    font-size: 15px;
+    font-family: Roboto;
+    text-align:;
+    padding-right: 14px;
+}
+.right-Content-Div3 h3::before {
+    content:"03.";
+    color:rgb(224, 224, 224);
+    display: block;
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+
+/* div4 er selictor & before css */
+.right-Content-Div4 h3{
+    font-size: 20px;
+    color:#464646;
+    font-family: Roboto;
+    margin-bottom: 0px;
+    line-height: 45px;
+}
+.right-Content-Div4 p{
+    color: #b1b1b1;
+    font-size: 15px;
+    font-family: Roboto;
+    text-align:;
+    padding-right: 14px;
+}
+.right-Content-Div4 h3::before {
+    content:"04.";
+    color:rgb(224, 224, 224);
+    display: block;
+    font-size: 50px;
+    font-family: Roboto;
+}
+
+
+
+
+
+
+
+
+/* Services Section css */
+.service-Title {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.service-Title h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.service-Title h2:before {
+    content: "Services";
+    color: #dde4e994;
+    font-size: 75px;
+    position: absolute;
+    top: -35px;
+    left: 390px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+.service-Title h2 .underline:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #00acff;
+    position: absolute;
+    bottom: -10px;
+    left: 550px;
+}
+
+.services1 {
+    width: 50%;
+    float: left;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+.services2 {
+    width: 50%;
+    float: right;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+.services3 {
+    width: 50%;
+    float: right;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+.services4 {
+    width: 50%;
+    float: left;
+    padding: 25px 40px;
+    box-sizing: border-box;
+}
+
+
+.services1 i {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #00acff;
+    font-size: 40px;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    float: left;
+}
+
+
+.services2 i {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #00acff;
+    font-size: 40px;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    float: left;
+}
+
+
+.services3 i {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #00acff;
+    font-size: 40px;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    float: left;
+}
+
+
+.services4 i {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: #00acff;
+    font-size: 40px;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    float: left;
+}
+
+
+
+
+
+
+
+.services1 h2 {
+    font-size: 25px;
+    font-family: Roboto;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.services1 p {
+    display: block;
+    margin-left: 136px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #c0c0c0e8;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+
+
+
+
+.services2 h2 {
+    font-size: 25px;
+    font-family: Roboto;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.services2 p {
+    display: block;
+    margin-left: 136px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #c0c0c0e8;
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+
+
+
+
+.services3 h2 {
+    font-size: 25px;
+    font-family: Roboto;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.services3 p {
+    display: block;
+    margin-left: 136px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #c0c0c0e8;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+
+
+
+
+
+.services4 h2 {
+    font-size: 25px;
+    font-family: Roboto;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.services4 p {
+    display: block;
+    margin-left: 136px;
+    line-height: 20px;
+    margin-top: 10px;
+    color: #c0c0c0e8;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
+
+
+
+
+
+
+/* Process Section css */
+.work-Process-Title {
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+
+.work-Process-Title h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    z-index: 1;
+    position: relative;
+}
+
+.work-Process-Title h2:before {
+    content: "process";
+    color: #dde4e994;
+    font-size: 75px;
+    position: absolute;
+    top: -35px;
+    left: 390px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+.work-Process-Title h2 .underline-Process:after {
+    content: "";
+    width: 70px;
+    height: 4px;
+    background: #00acff;
+    position: absolute;
+    bottom: -10px;
+    left: 550px;
+}
+
+
+
+
+
+.all-Process.clearfixd {
+    overflow: hidden;
+}
+
+.process1 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.process2 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.process3 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.process4 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.process5 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.process6 {
+    width: 33.3%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+
+.process1 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process1 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process1 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+
+.process2 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process2 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process2 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size:15px;
+    line-height: 20px;
+}
+
+
+
+
+.process3 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process3 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process3 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+
+
+.process4 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process4 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process4 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size: 15px;
+    line-height:20px;
+}
+
+
+
+.process5 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process5 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process5 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+
+.process6 i {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    text-align: center;
+    font-size: 40px;
+    color: #00acff;
+    border-radius: 100%;
+    border: 4px solid #00acff;
+    position: relative;
+    z-index: 1;
+}
+.process6 h2{
+    margin:10px 0px;
+    font-family: Roboto;
+    color:rgba(20, 20, 20, 0.925);
+    font-size: 20px;
+}
+.process6 p{
+    font-family:Roboto;
+    color:#b8b8b8eb;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+
+.dotted-Border:after {
+    content: "";
+    width: 292px;
+    position: absolute;
+    border-top: 2px dotted #00acff;
+    top: 50px;
+    left: 100px;
+    z-index: -1;
+}
+
+
+
+/* Contact Me section left css */
+.social-Mailing {
+    width: 50%;
+    float: left;
+    display: table;
+}
+
+.contact-Me-Title h2 {
+    font-family: Raleway;
+    font-size: 30px;
+    z-index: 1;
+    text-shadow: 0px 0px 8px white;
+    position: relative;
+}
+
+.contact-Me-Title h2:before {
+    content: "contact me";
+    color: #dde4e994;
+    font-size: 75px;
+    position: absolute;
+    top: -47px;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    z-index: -1;
+}
+
+
+
+.social-Mailing1 i {
+    font-size: 25px;
+    color: #00acff;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-Mailing1 h5 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.social-Mailing1 {
+    margin-top: 30px;
+}
+
+.social-Mailing1 p {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #adadadd1;
+    margin-top: 5px;
+}
+
+
+
+
+
+.social-Mailing2 i {
+    font-size: 25px;
+    color: #00acff;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-Mailing2 h5 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.social-Mailing2 {
+    margin-top: 30px;
+}
+
+.social-Mailing2 p {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #adadadd1;
+    margin-top: 5px;
+}
+
+
+
+.social-Mailing3 i {
+    font-size: 25px;
+    color: #00acff;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-Mailing3 h5 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.social-Mailing3 {
+    margin-top: 30px;
+}
+
+.social-Mailing3 p {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #adadadd1;
+    margin-top: 5px;
+}
+
+
+
+
+.social-Mailing4 i {
+    font-size: 25px;
+    color: #00acff;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-Mailing4 h5 {
+    font-size: 17px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.social-Mailing4 {
+    margin-top: 30px;
+}
+
+.social-Mailing4 p {
+    font-size: 15px;
+    font-family: Roboto;
+    color: #adadadd1;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* Contact Me sent Massage right section Css */
+.contact-Me-Massaging-Right {
+    width: 50%;
+    float: left;
+}
+
+.massage-Div {
+    margin-top: 55px;
+}
+.basicinput {
+    width: 500px;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-family: Roboto;
+    border: 1px solid #ddd;
+    outline: none;
+    color:#9b9b9be8;
+}
+
+
+
+.massage-Div a {
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 9px 14px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 700;
+    background: linear-gradient(45deg, #00acff, #00ffe7);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.massage-Div a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0000001c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+.massage-Div a:hover:after{
+    visibility: visible;
+}
+
+
+
+/* workplace linkin section css */
+.workplace-Linking-Section{
+    background:linear-gradient(rgba(0 88 101 / 82%),rgba(0 88 101 / 82%)), url(images/bbb2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.workplace-Linking-Section-Wrapper {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:20px;
+}
+
+.facebook {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.facebook i {
+    width: 70px;
+    height: 70px;
+    display: grid;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    place-items: center;
+    border-radius: 100%;
+    border: 4px solid white;
+    color: white;
+    font-size: 30px;
+}
+.facebook h4 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c6c6c6e0;
+}
+.facebook a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.fiverr{
+    width:20%;
+    float: left;
+    padding:20px;
+    box-sizing: border-box;
+}
+.fiverr h4 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c6c6c6e0;
+}
+.fiverr a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+
+.upwork {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.upwork h4 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c6c6c6e0;
+}
+.upwork a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+.freelancer {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.freelancer h4 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c6c6c6e0;
+}
+.freelancer a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+.youtube {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.youtube i {
+    width: 70px;
+    height: 70px;
+    margin-left: 30%;
+    display: grid;
+    margin-bottom: 20px;
+    place-items: center;
+    border-radius: 100%;
+    border: 4px solid white;
+    color: white;
+    font-size: 30px;
+}
+.youtube h4 {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #c6c6c6e0;
+}
+.youtube a {
+    text-decoration: none;
+    color: white;
+    font-family: Roboto;
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+
+
+.freelancer img {
+    margin-bottom: 16px;
+}
+
+.upwork img {
+    margin-bottom: 16px;
+}
+
+.fiverr img {
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+/* footer Section css */
+.footer-Section-Wrapper {
+    padding: 20px 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer.footer-Section.clearfixd {
+    background: #0092d8;
+}
+
+.footer-Section-Wrapper p {
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+.footer-Section-Wrapper a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-Section-Wrapper a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
