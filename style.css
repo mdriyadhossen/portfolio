@@ -1161,6 +1161,7 @@ ul.exprience-Menu li:last-child:before {
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+    background-attachment: fixed;
 }
 .workplace-Linking-Section-Wrapper {
     overflow: hidden;
